@@ -1,4 +1,4 @@
-package learnJava;
+package learnJava1;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -24,7 +24,7 @@ public class learn1 {
 		int in = by;
 		System.out.println("in = " + in);
 		
-		// 명시적 형변환: 큰 공가느이 메모리에서 작은 공간의 메모리로 이동(데이터 누실될 수 있다)
+		// 명시적 형변환: 큰 공간의 메모리에서 작은 공간의 메모리로 이동(데이터 누실될 수 있다)
 		int iVar = 123456;
 		byte bVar = (byte)iVar;
 		System.out.println("bVar = " + bVar);
