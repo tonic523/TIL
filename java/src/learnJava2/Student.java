@@ -1,8 +1,8 @@
 package learnJava2;
 
 public class Student {//클래스 이름: 일반적으로 첫글자는 대문자로
-	public String name;// 속성
-	public int score;// 속성
+	private String name;// 속성(정보 은닉)
+	private int score;// 속성(정보 은닉)
 	
 	public Student()// 생성자
 	{
@@ -29,6 +29,25 @@ public class Student {//클래스 이름: 일반적으로 첫글자는 대문자
 		System.out.printf("점수: %d\n", score);
 		Secret();
 	}
+	
+	
+	// getter, setter 생성
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+	
 	private void Secret()//메소드: Student 클래스에서만 접근 가능
 	{
 		System.out.println("보안정보");
