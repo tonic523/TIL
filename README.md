@@ -10,8 +10,11 @@
 - [단축키](https://github.com/tonic523/TIL/blob/master/Eclipse/%EB%8B%A8%EC%B6%95%ED%82%A4.md)
 ### Java
 - [컬렉션 프레임워크](https://github.com/tonic523/TIL/blob/master/Java/Collection_franework.md)
-- [스캐너 오류](https://github.com/tonic523/TIL/tree/master/Java/Error_Scanner.md)
-
+- [스캐너](https://github.com/tonic523/TIL/tree/master/Java/Error_Scanner.md)
+- [캘린더 클래스 활용](https://github.com/tonic523/TIL/blob/master/Java/CalanderClass.md)
+- [형변환](https://github.com/tonic523/TIL/blob/master/Java/Casting.md)
+- [SimpleDateFormat 클래스](https://github.com/tonic523/TIL/blob/master/Java/SimpleDateFormatClass.md)
+- [Split](https://github.com/tonic523/TIL/blob/master/Java/SplitFuction.md)
 ### Markdown
 - [문법](https://github.com/tonic523/TIL/blob/master/Markdown/Grammar.md)
 
