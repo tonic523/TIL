@@ -15,12 +15,9 @@ public static void main(String[] args) {
 		scanner.close();
 	}
 ```
+**입력값** >> a : 10 , b : abc
 
-1.
-
-입력값>> a : 10 , b : abc
-
-결과값
+**결과값**
 
 Exception in thread "main" **java.util.InputMismatchException**
 at java.base/java.util.Scanner.throwFor(Scanner.java:939)
@@ -33,11 +30,9 @@ at programmers.Exam1.main(Exam1.java:14)
 
 - 정수형 입력에 문자열이 들어가서 '입력 부적합 예외'가 발생했다.
 
-2.
+**입력값**>> a : 10 , b : 0
 
-입력값>> a : 10 , b : 0
-
-결과값
+**결과값**
 
 Exception in thread "main" **java.lang.ArithmeticException**: / by zero
 at programmers.Exam1.main(Exam1.java:15)
