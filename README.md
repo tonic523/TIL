@@ -15,8 +15,13 @@
 - [형변환](https://github.com/tonic523/TIL/blob/master/Java/Casting.md)
 - [SimpleDateFormat 클래스](https://github.com/tonic523/TIL/blob/master/Java/SimpleDateFormatClass.md)
 - [Split](https://github.com/tonic523/TIL/blob/master/Java/SplitFuction.md)
+- [예외처리](https://github.com/tonic523/TIL/tree/master/Java/Exception.md)
+- [난수](https://github.com/tonic523/TIL/blob/master/Java/Random.md)
 ### Markdown
 - [문법](https://github.com/tonic523/TIL/blob/master/Markdown/Grammar.md)
+### 독서
+- [함께 자라기](https://github.com/tonic523/TIL/tree/master/%EB%8F%85%EC%84%9C)
+
 
 ### 정보처리기사
 - [1.요구사항](https://github.com/tonic523/TIL/blob/master/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/1_%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.md)
