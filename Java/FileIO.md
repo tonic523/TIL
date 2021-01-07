@@ -1,10 +1,10 @@
-## 파일 입출력
+# 파일 입출력
 
-#### 파일 쓰기
+### 파일 쓰기
 
 FileOutputStream 은 byte배열을 문자열로 바꿔줘야한다.
 
-- FileWriter클래스(파일에 텍스트 쓰기)
+#### FileWriter클래스(파일에 텍스트 쓰기)
   > 문자열을 직접 파일에 쓸 수 있다.
 
 ```
@@ -30,19 +30,19 @@ public static void main(String[] args) throws IOException /* 예외처리 */ {
 ```
 
 **입력값**
-날짜를 입력하세요.
-2020-01-07
-일정을 입력하세요.
-coding
+- 날짜를 입력하세요.
+- 2020-01-07
+- 일정을 입력하세요.
+- coding
 
 **결과값**
-파일-test.txt
+- 파일-test.txt
 
 ```
 2020-01-07coding
 ```
 
-- PrintWriter
+#### PrintWriter
   > 입력할 때 마다 다음줄로 넘어갈 때 사용한다.
 
 ```
@@ -65,14 +65,14 @@ public static void main(String[] args) throws IOException /* 예외처리 */ {
 	}
 ```
 
-**입력값**
-날짜를 입력하세요.
-2020-01-07
-일정을 입력하세요.
-coding
+- **입력값**
+- 날짜를 입력하세요.
+- 2020-01-07
+- 일정을 입력하세요.
+- coding
 
 **결과값**
-파일-test.txt
+- 파일-test.txt
 
 ```
 2020-01-07
