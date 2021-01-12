@@ -1,6 +1,6 @@
 ## Web 에 Hello 출력하기
 
-<img src="C:\Users\diddm\AppData\Roaming\Typora\typora-user-images\image-20210112114950714.png" alt="image-20210112114950714" style="zoom:67%;" />
+![image](https://user-images.githubusercontent.com/59171113/104302943-c64f8200-550c-11eb-97ee-be37889d3407.png)
 
 - localhost:8080
   - src/main/resource/static/index.html 파일을 웹에 출력한다.
@@ -19,7 +19,7 @@ Hello
 </html>
 ```
 
-<img src="C:\Users\diddm\AppData\Roaming\Typora\typora-user-images\image-20210112115251539.png" alt="image-20210112115251539" style="zoom:80%;" />
+![image](https://user-images.githubusercontent.com/59171113/104303004-da937f00-550c-11eb-94f7-ef55ab71b9c5.png)
 
 - helloController(컨트롤러)
 
@@ -39,7 +39,7 @@ Hello
     - ```
       @Controller
       public class HelloController {
-      	@GetMapping
+      	@GetMapping("hello")
       	public String hello(Model model) {
       		model.addAttribute("data", "Hello!!");
       		return "hello";
@@ -49,7 +49,7 @@ Hello
 
 - resources/templates/hello.html
   - http://localhost:8080/hello 입력시 웹에 출력
-  -
+  
   ```
     <!DOCTYPE HTML>
     <html xmlns:th="http://www.thymeleaf.org">
@@ -62,10 +62,3 @@ Hello
     </body>
     </html>
   ```
-
-```
-
-
-
-
-```
